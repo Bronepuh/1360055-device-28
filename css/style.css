@@ -2233,6 +2233,7 @@ button.map-close:active {
 /* Animations */
 
 @keyframes bounce {
+
   0% {
     transform: translateY(-2000px);
   }
