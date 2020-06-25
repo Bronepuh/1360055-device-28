@@ -1670,7 +1670,7 @@ button.btn-arrow-up:active svg {
 .toggle-min::before,
 .toggle-max::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 4px;
   height: 4px;
   background-color: #c4c4c4;
@@ -2074,9 +2074,7 @@ button.btn-arrow-up:active svg {
   width: 994px;
   height: 593px;
   top: 50%;
-  margin-top: -300px;
   left: 50%;
-  margin-left: -500px;
   display: none;
 }
 
@@ -2172,9 +2170,7 @@ button.close:active {
   width: 994px;
   height: 593px;
   top: 50%;
-  margin-top: -300px;
   left: 50%;
-  margin-left: -500px;
   display: none;
 }
 
