@@ -682,6 +682,7 @@ p.individual {
 .popular__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -1670,7 +1671,11 @@ button.btn-arrow-up:active svg {
 .toggle-min::before,
 .toggle-max::before {
   position: absolute;
+<<<<<<< HEAD
   content: '';
+=======
+  content: "";
+>>>>>>> f490a572131adb21bf2ee29430a165562b09dbb5
   width: 4px;
   height: 4px;
   background-color: #c4c4c4;
@@ -2073,11 +2078,12 @@ button.btn-arrow-up:active svg {
   content: "";
   width: 994px;
   height: 593px;
-  top: 50%;
-  margin-top: -300px;
-  left: 50%;
-  margin-left: -500px;
   display: none;
+  top: 50%;
+  left: 50%;
+  margin-left: -497px;
+  margin-top: -300px;
+
 }
 
 .message-popup-form {
@@ -2172,10 +2178,13 @@ button.close:active {
   width: 994px;
   height: 593px;
   top: 50%;
-  margin-top: -300px;
   left: 50%;
-  margin-left: -500px;
   display: none;
+<<<<<<< HEAD
+=======
+  margin-left: -497px;
+  margin-top: -300px;
+>>>>>>> f490a572131adb21bf2ee29430a165562b09dbb5
 }
 
 .map-popup {
@@ -2233,6 +2242,7 @@ button.map-close:active {
 /* Animations */
 
 @keyframes bounce {
+
   0% {
     transform: translateY(-2000px);
   }
