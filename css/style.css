@@ -1671,11 +1671,7 @@ button.btn-arrow-up:active svg {
 .toggle-min::before,
 .toggle-max::before {
   position: absolute;
-<<<<<<< HEAD
-  content: '';
-=======
   content: "";
->>>>>>> f490a572131adb21bf2ee29430a165562b09dbb5
   width: 4px;
   height: 4px;
   background-color: #c4c4c4;
@@ -2180,11 +2176,8 @@ button.close:active {
   top: 50%;
   left: 50%;
   display: none;
-<<<<<<< HEAD
-=======
   margin-left: -497px;
   margin-top: -300px;
->>>>>>> f490a572131adb21bf2ee29430a165562b09dbb5
 }
 
 .map-popup {
@@ -2261,6 +2254,7 @@ button.map-close:active {
 }
 
 @keyframes shake {
+
   0%,
   100% {
     transform: translateX(0);

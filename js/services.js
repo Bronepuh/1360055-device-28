@@ -1,22 +1,4 @@
 var servicesButton1 = document.getElementById('services-btn-1');
-<<<<<<< HEAD
-console.log(servicesButton1);
-
-var servicesButton2 = document.getElementById('services-btn-2');
-console.log(servicesButton2);
-
-var servicesButton3 = document.getElementById('services-btn-3');
-console.log(servicesButton3);
-
-var servicesSlide1 = document.querySelector('.first');
-console.log(servicesSlide1);
-
-var servicesSlide2 = document.querySelector('.second');
-console.log(servicesSlide2);
-
-var servicesSlide3 = document.querySelector('.third');
-console.log(servicesSlide3);
-=======
 
 var servicesButton2 = document.getElementById('services-btn-2');
 
@@ -27,7 +9,6 @@ var servicesSlide1 = document.querySelector('.first');
 var servicesSlide2 = document.querySelector('.second');
 
 var servicesSlide3 = document.querySelector('.third');
->>>>>>> f490a572131adb21bf2ee29430a165562b09dbb5
 
 servicesButton1.addEventListener('click', function() {
     servicesButton2.classList.remove('services__slider-button--active');
